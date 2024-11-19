@@ -7,18 +7,50 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Dependency directories
+node_modules/
+dist/
+dist-ssr/
+build/
+.cache/
+.next/
+out/
+.vscode/
+coverage/
 *.local
 
+# Build artifacts
+*.map
+*.tsbuildinfo
+*.d.ts
+*.js.map
+*.cjs
+*.mjs
+*.esm.js
+*.swp
+
+# TypeScript and Babel specific files
+*.tsbuildinfo
+.eslintcache
+babel.config.js
+babel.config.json
+.babelrc
+.babelrc.js
+.babelrc.json
+
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Environment variables
+.env
+.env.*.local
+
+# Temporary files
+tmp/
+temp/
